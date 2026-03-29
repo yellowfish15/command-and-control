@@ -1,6 +1,6 @@
 # Lab: Reverse Shell Persistence & Detection
 
-By: Alex Lee, Yu Lim, Ethan Zhang
+By: Alexander Lee, Yu Lim, Ethan Zhang
 
 This proof-of-concept demonstrates a Linux persistence mechanism using a **systemd service** and a **Python reverse shell** secured with HMAC authentication.
 
